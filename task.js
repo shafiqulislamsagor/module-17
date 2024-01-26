@@ -1,3 +1,4 @@
+// task 1 :
 const money = 200 ;
 
 if(money > 500){
@@ -9,3 +10,21 @@ else{
     console.log("I don't get free coke by buying food of "+ money + " tk and coke price: " + coke);
 }
 
+// task 2 :
+const weight = 40 ;
+const height = 1.57 ; /**5.2 inc = 1.5748m */
+
+const BMI = weight / height**2 ;
+
+if(BMI < 18.5){
+    console.log("You are underweight.")
+}
+else if(BMI >= 18.5 && BMI <= 24.9){
+    console.log("You are normal")
+}
+else if(BMI >= 25 && BMI <= 29.9){
+    console.log("You are overweight.")
+}
+else{
+    console.log("You are obese")
+}
