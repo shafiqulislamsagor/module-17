@@ -15,4 +15,15 @@ tourist.push('goldenPark', 'BluePark');
 
 tourist.pop();
 
-console.log(tourist)
+console.log(tourist);
+
+// Task 3
+
+const books =['English' ,'Bangla' ,'Math' ,'JavaScript' ,'Java'];
+
+let search = books.includes('JavaScript');
+
+
+console.log('JavaScript book ase ki: ' + search);
+
+
