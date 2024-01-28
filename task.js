@@ -28,3 +28,23 @@ else if(BMI >= 25 && BMI <= 29.9){
 else{
     console.log("You are obese")
 }
+
+// Task 3
+
+let myPoint = 70;
+
+if(myPoint >= 90){
+    console.log('My grade : A');
+}
+else if(myPoint >= 80 && myPoint < 90){
+    console.log('My grade : B')
+}
+else if(myPoint >= 70 && myPoint < 80){
+    console.log('My grade : C')
+}
+else if(myPoint >= 60 && myPoint < 70){
+    console.log('My grade : D')
+}
+else{
+    console.log('You are Failed')
+}
