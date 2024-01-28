@@ -86,4 +86,28 @@ let num2 = 10 ;
 
 const ans = num1 < num2 ? 'num1 suto tai gunfol ' + num1 * num2 : 'num2 suto tai jugfol ' + num1 + num2;
 
-console.log(ans)
+console.log(ans);
+
+// task 6
+
+var ages = 18;
+let ticket = 800 ;
+let decition;
+
+if(ages < 10){
+    ticket = ticket - ticket;
+    decition = 'tmr jonno ticket free and ticket price ' + ticket;
+}
+else if(ages < 20){
+    ticket = ticket/2 ;
+    decition = 'tmr jonno ticket 50% discount and ticket price ' + ticket;
+}
+else if(ages >= 60){
+    ticket = ticket - ((15/100) * ticket) ;
+    decition = 'tmr jonno ticket 15% discount and ticket price ' + ticket;
+}
+else{
+    ticket = ticket;
+    decition = 'tmr jonno ticket full price and ticket price ' + ticket ;
+}
+console.log(decition);
