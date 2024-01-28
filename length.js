@@ -8,4 +8,5 @@ console.log(num);
 
 const forth = num[5];
 
-console.log(forth)
+console.log(forth);
+console.log("array")
