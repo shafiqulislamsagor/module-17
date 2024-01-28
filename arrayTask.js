@@ -44,3 +44,14 @@ console.log(Array.isArray(str_array))
 console.log(Array.isArray(num_array))
 console.log(Array.isArray(bol_array))
 
+
+// Task 5
+
+const roll = [20,25,24,26,35,25,36,29,55];
+const nam = ['sagor','habiba','safa','sidratul'];
+
+const added = roll.concat(nam);
+
+console.log(roll);
+console.log(nam);
+console.log(added);
