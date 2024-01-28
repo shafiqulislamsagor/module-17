@@ -70,3 +70,20 @@ if(myPoint >= 80){
 else{
     console.log('I go to home and sleep and act sad')
 }
+
+// Task 5
+let num1 = 5 ;
+let num2 = 10 ;
+
+// if(num1 < num2){
+//     const multipler = num1 * num2;
+//     console.log('num1 suto tai gunfol :' + multipler);
+// }
+// else{
+//     const sum = num1 + num2;
+//     console.log('num2 suto tai jugfol'+ sum)
+// }
+
+const ans = num1 < num2 ? 'num1 suto tai gunfol ' + num1 * num2 : 'num2 suto tai jugfol ' + num1 + num2;
+
+console.log(ans)
