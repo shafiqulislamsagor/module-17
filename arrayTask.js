@@ -26,4 +26,21 @@ let search = books.includes('JavaScript');
 
 console.log('JavaScript book ase ki: ' + search);
 
+// Task 4 
+
+const string = 'String';
+const numbers = 52;
+const bolean = true;
+
+const str_array = ['hi' , 'hlw' , ' kmn aso' ,
+'ki' ,' koro'];
+const num_array = [20,23,55,62,442,332,22];
+const bol_array = [true ,false , true,false,false];
+
+console.log(Array.isArray(string))
+console.log(Array.isArray(numbers))
+console.log(Array.isArray(bolean))
+console.log(Array.isArray(str_array))
+console.log(Array.isArray(num_array))
+console.log(Array.isArray(bol_array))
 
